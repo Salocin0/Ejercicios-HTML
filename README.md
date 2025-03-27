@@ -19,7 +19,7 @@ Este repositorio contiene **Ejercicios de HTML** divididos por niveles de dificu
 
 ---
 
-## 🔸 Ejercicios Intermedios (11–20)
+## 🔸 Ejercicios Intermedios (11–19)
 
 11. **Formulario simple:** Crear un formulario con nombre, correo y botón.
 12. **Tabla de productos:** Crear una tabla con 3 columnas: producto, precio, cantidad.
@@ -33,7 +33,7 @@ Este repositorio contiene **Ejercicios de HTML** divididos por niveles de dificu
 
 ---
 
-## 🔶 Ejercicios Avanzados (21–30)
+## 🔶 Ejercicios Avanzados (21–24)
 
 20. **Estructura semántica completa:** Usar `header`, `nav`, `main`, `section`, `aside` y `footer`.
 21. **Formulario con validación:** Agregar `required`, `pattern`, `min`, `max`, etc.
