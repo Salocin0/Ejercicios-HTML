@@ -1,10 +1,10 @@
-# 📘 Ejercicios de HTML
+# 🎮 Niveles de HTML: ¡Sube de Rango!
 
-Este repositorio contiene **Ejercicios de HTML** divididos por niveles de dificultad, con enunciado y solución.
+Bienvenido a este repositorio, donde encontrarás una serie de **ejercicios prácticos de HTML** diseñados para reforzar los conceptos aprendidos en clase. Los ejercicios están organizados por niveles de dificultad, cada uno con su enunciado y solución, para que puedas practicar y mejorar tus habilidades de desarrollo web.
 
 ---
 
-## 🔹 Ejercicios Básicos (1–10)
+## 🟢 Nivel 1: Ejercicios Básicos
 
 1. **Título y párrafo:** Crear una página HTML con un título `<h1>` y un párrafo `<p>`.
 2. **Lista ordenada:** Crear una lista ordenada de tus 5 comidas favoritas.
@@ -19,34 +19,74 @@ Este repositorio contiene **Ejercicios de HTML** divididos por niveles de dificu
 
 ---
 
-## 🔸 Ejercicios Intermedios (11–19)
+## 🟡 Nivel 2: Ejercicios Intermedios
 
-11. **Formulario simple:** Crear un formulario con nombre, correo y botón.
-12. **Tabla de productos:** Crear una tabla con 3 columnas: producto, precio, cantidad.
-13. **Lista anidada:** Crear una lista con subelementos dentro de cada ítem.
-14. **Video embebido:** Incluir un video de YouTube en tu página.
-15. **Audio embebido:** Insertar un archivo de audio con controles.
-16. **Imagen con enlace:** Hacer clic en una imagen que lleve a otra web.
-17. **Favicon:** Agregar un favicon personalizado a tu página.
-18. **Página "Sobre mí":** Crear una mini biografía con imagen y texto.
-19. **Enlaces internos:** Usar enlaces que te lleven a distintas secciones de la misma página.
+11. **Formulario simple:** Crear un formulario de registro con los siguientes datos nombre, apellido, correo electronico, fecha nacimiento, telefono, localidad, pais (al menos 5 opciones disponibles) y botón.
+12. **Tabla de productos:** Crear una tabla que muestre al menos 3 productos con los siguientes datos: producto, precio, cantidad, descripcion, pais fabricacion.
+13. **Lista anidada:** Crear una lista con platos y una sublista con ingredientes de estos platos.
+14. **Imagen con enlace:** Hacer clic en una imagen que lleve a otra web.
+15. **Página "Sobre mí":** Crear una mini biografía con titulo, subtitulo, imagen y texto.
+16. **Enlaces internos:** Crear una pagina donde contenga distintos titulos y parrafos separados en secciones informativas (sobre cualquier tema) y agregar al inicio una seccion `indice`, que contenga etiquetas `a` que nos lleven a cada seccion correspondiente.
 
 ---
 
-## 🔶 Ejercicios Avanzados (21–24)
+## 🔵 Nivel 3: Ejercicios Avanzados
 
-20. **Estructura semántica completa:** Usar `header`, `nav`, `main`, `section`, `aside` y `footer`.
-21. **Formulario con validación:** Agregar `required`, `pattern`, `min`, `max`, etc.
-22. **Tabla con `thead` y `tfoot`:** Crear tabla con encabezado y pie.
-23. **Formulario con `fieldset`:** Agrupar campos dentro de categorías.
-24. **Formulario con radio y checkbox:** Incluir ambos tipos de inputs.
+17. **Estructura semántica completa:** Crea una página HTML sobre un portal de noticias. La página debe incluir:  
+- Un **header** con el título del portal y un subtítulo.  
+- Un **nav** con enlaces a secciones como "Inicio", "Noticias", "Contacto".  
+- Un **main** que contenga dos **sections**: una con un artículo destacado (título, imagen y texto) y otra con una lista de noticias recientes.  
+- Un **aside** con enlaces a noticias relacionadas o publicidad.  
+- Un **footer** con información de copyright y enlaces a redes sociales.
+
+    **Ayuda:**  
+    - Usa `<header>` para agrupar el título y subtítulo de la página.  
+    - Usa `<nav>` para crear un menú de navegación con una lista de enlaces.  
+    - Usa `<main>` para el contenido principal, dividiéndolo en **sections** para organizar el artículo destacado y las noticias recientes.  
+    - Usa `<aside>` para contenido complementario, como enlaces o publicidad.  
+    - Usa `<footer>` para información al final de la página, como derechos de autor o enlaces adicionales. 
+
+18. **Formulario con `fieldset`:** Crear un formulario con dos secciones principales "informacion personal" con los campos nombre, apellido y edad, e "informacion de contacto" con los campos email y telefono, cada una de estas secciones separadas en un `fieldset` y utilizar un `legend`, agregar un boton enviar.
 
 ---
 
-## 🔴 Prácticos Difíciles
+## 🔴 Nivel 4: Práctico Difícil
 
-**Crea un CV completo:** Armar un currículum vitae con datos ficticios y buena estructura visual (HTML puro).
-**Página multipágina (5 HTMLs):** Crear una web con 5 páginas HTML enlazadas entre sí (inicio, contacto, productos, etc).
-**Formulario completo:** Crear un formulario con todos los tipos de inputs: texto, email, password, file, color, fecha, número, radio, checkbox, select, textarea, range, etc.
+### Ejercicio: Página de Presentación con Subpáginas
 
----
+**Instrucciones:**  
+Crea un sitio web compuesto por varias páginas HTML enlazadas entre sí. El sitio debe incluir las siguientes subpáginas:
+
+1. **Página principal:**  
+   - Debe contener un título principal, un párrafo de bienvenida y enlaces a las demás subpáginas (Formulario de Registro, Formulario de Contacto y Formulario de Feedback).
+
+2. **Formulario de Registro:**  
+   - Crea un formulario que permita a los usuarios registrarse. Debe incluir los siguientes campos:
+     - Nombre
+     - Apellido
+     - Correo electrónico
+     - Contraseña
+     - Confirmación de contraseña
+     - Checkbox para aceptar términos y condiciones
+     - Botón de envío.
+
+3. **Formulario de Contacto:**  
+   - Crea un formulario para que los usuarios puedan enviar mensajes. Debe incluir los siguientes campos:
+     - Nombre
+     - Correo electrónico
+     - Asunto
+     - Mensaje (usando un `<textarea>`)
+     - Botón de envío.
+
+4. **Formulario de Feedback:**  
+   - Crea un formulario para recopilar opiniones de los usuarios. Debe incluir los siguientes campos:
+     - Nombre
+     - Correo electrónico
+     - Calificación (usando un `<select>` con opciones del 1 al 5)
+     - Comentarios (usando un `<textarea>`)
+     - Botón de envío.
+
+**Requisitos adicionales:**  
+- Cada página debe tener un diseño consistente, con un **header** que incluya el título del sitio y un **nav** con enlaces a todas las subpáginas.  
+- Agrega un **footer** en cada página con información de copyright.  
+- Usa etiquetas semánticas como `<header>`, `<nav>`, `<main>`, `<section>`, y `<footer>` para estructurar el contenido.
